@@ -1,0 +1,4 @@
+https://swapi.dev/
+https://ajax.test-danit.com/api-pages/swapi.html
+https://starwars-visualguide.com/#/
+https://studyjavascript.blogspot.com/2020/01/2.html
