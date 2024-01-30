@@ -170,8 +170,8 @@ function renderCard(arr) {
 }
 
 function getPageNumberFromUrl(url) {
-    const match = url.match(/page=(\d+)/);
-    return match ? parseInt(match[1], 10) : 1;
+    const pageNumberString = url.split('page=')[1];
+    return pageNumberString ? parseInt(pageNumberString, 10) : 1;
 }
 
 function toggleNavigationButtons() {
